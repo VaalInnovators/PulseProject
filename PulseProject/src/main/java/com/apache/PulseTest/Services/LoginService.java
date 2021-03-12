@@ -33,8 +33,8 @@ public class LoginService {
     {
         String sql = "INSERT INTO Employee VALUES(?,?,?,?,?,?,?,?,?,?,?,?,?,?)";
         
-        jdbcTemplate.update(sql, new Object[] {employee.getEmpName(), employee.getEmpSurname(),employee.getEmpTypeNo(), employee.getEmailAddress(), employee.getPassword(), 
-        employee.getEmpDate(), employee.getSysDate(), employee.getPhoneNo(),employee.getStreetAddress(), employee.getStreetName(), employee.getSuburb(),employee.getCity(), employee.getZipCode(), employee.getEntityNo()});
+        //jdbcTemplate.update(sql, new Object[] {employee.getEmpName(), employee.getEmpSurname(),employee.getEmpTypeNo(), employee.getEmailAddress(), employee.getPassword(), 
+        //employee.getEmpDate(), employee.getSysDate(), employee.getPhoneNo(),employee.getStreetAddress(), employee.getStreetName(), employee.getSuburb(),employee.getCity(), employee.getZipCode(), employee.getEntityNo()});
     }
     
     public Employee ValidateLogin(Login login)
@@ -58,20 +58,20 @@ public class LoginService {
     user.setEmail(rs.getString("email"));
     user.setAddress(rs.getString("address"));
     user.setPhone(rs.getInt("phone"));**/
-    employee.setEmpName(rs.getString("Employee_Name"));
-    employee.setEmpSurname(rs.getString("Employee_Surname"));
-    employee.setEmpTypeNo(rs.getInt("Employee_Type_No"));
-    employee.setEmailAddress(rs.getString("Email_Address"));
-    employee.setPassword(rs.getString("Password"));
-    employee.setEmpDate(rs.getDate("Employee_Date"));
-    employee.setSysDate(rs.getDate("System_Date"));
-    employee.setPhoneNo(rs.getString("Phone_Number"));
-    employee.setStreetAddress(rs.getString("Street_Address"));
-    employee.setStreetName(rs.getString("Street_Name"));
-    employee.setSuburb(rs.getString("Suburb"));
-    employee.setCity(rs.getString("City"));
-    employee.setZipCode(rs.getInt("ZIp_Code"));
-    employee.setEntityNo(rs.getInt("Entity_No"));
+    //employee.setEmpName(rs.getString("Employee_Name"));
+    //employee.setEmpSurname(rs.getString("Employee_Surname"));
+    //employee.setEmpTypeNo(rs.getInt("Employee_Type_No"));
+    //employee.setEmailAddress(rs.getString("Email_Address"));
+    //employee.setPassword(rs.getString("Password"));
+    //employee.setEmpDate(rs.getString("Employee_Date"));
+    //employee.setSysDate(rs.getString("System_Date"));
+    //employee.setPhoneNo(rs.getString("Phone_Number"));
+    //employee.setStreetAddress(rs.getString("Street_Address"));
+    //employee.setStreetName(rs.getString("Street_Name"));
+    //employee.setSuburb(rs.getString("Suburb"));
+    //employee.setCity(rs.getString("City"));
+    //employee.setZipCode(rs.getInt("ZIp_Code"));
+    //employee.setEntityNo(rs.getInt("Entity_No"));
 
     return employee;
         }

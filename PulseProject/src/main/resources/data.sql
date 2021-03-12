@@ -1,6 +1,6 @@
 
 INSERT INTO Employee
-Select 1,'Ferry',
+Select 2,'Ferry',
     'Tsolanku',
     1,
    'ferrytsolanku@gmail.com',
