@@ -1,6 +1,5 @@
 package com.apache.PulseTest.Models;
 
-import java.util.Date;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
@@ -14,7 +13,7 @@ import org.springframework.data.annotation.Id;
 public class Employee {
     
     @Id
-    //@GeneratedValue(strategy = GenerationType.AUTO)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     @javax.persistence.Id
     
     private int id;

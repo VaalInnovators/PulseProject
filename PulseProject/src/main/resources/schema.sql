@@ -1,6 +1,6 @@
 Create Table Employee
 (
-    id int,
+    id int NOT NULL AUTO_INCREMENT,
     Employee_Name varchar(50),
     Employee_Surname varchar(50),
     Employee_Type_No int,
@@ -14,5 +14,6 @@ Create Table Employee
     Suburb varchar(50),
     City varchar(50),
     ZIp_Code int,
-    Entity_No int
-)
+    Entity_No int,
+     PRIMARY Key (id)
+);

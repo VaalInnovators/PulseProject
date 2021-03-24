@@ -1,6 +1,6 @@
 
 INSERT INTO Employee
-Select 2,'Ferry',
+Select 'Ferry',
     'Tsolanku',
     1,
    'ferrytsolanku@gmail.com',
@@ -13,4 +13,4 @@ Select 2,'Ferry',
     'Boipatong',
     'Vanderbijlpark',
     1911,
-    1
+    1;
