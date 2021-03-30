@@ -31,7 +31,8 @@ public class LoginService {
     
     public void EmpCreate(Employee employee)
     {
-        String sql = "INSERT INTO Employee VALUES(?,?,?,?,?,?,?,?,?,?,?,?,?,?)";
+        String sql = "INSERT INTO Employee(id, city, email_address, employee_date, employee_name, employee_surname, employee_type_no, entity_no, password, phone_number, street_address, street_name, suburb, system_date, zip_code) +"
+                + "VALUES(null, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)";
         
         //jdbcTemplate.update(sql, new Object[] {employee.getEmpName(), employee.getEmpSurname(),employee.getEmpTypeNo(), employee.getEmailAddress(), employee.getPassword(), 
         //employee.getEmpDate(), employee.getSysDate(), employee.getPhoneNo(),employee.getStreetAddress(), employee.getStreetName(), employee.getSuburb(),employee.getCity(), employee.getZipCode(), employee.getEntityNo()});

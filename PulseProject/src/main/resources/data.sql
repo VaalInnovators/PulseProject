@@ -14,3 +14,7 @@ Select 'Ferry',
     'Vanderbijlpark',
     1911,
     1;
+
+
+insert into GOVERNANCE_STRUCTURE 
+Values(1,'Counsil','Yes','Yes','Ferry','Done','Zeph','2021-03-16','Meet requirements','2021-03-29');

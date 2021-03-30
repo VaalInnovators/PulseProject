@@ -17,3 +17,18 @@ Create Table Employee
     Entity_No int,
      PRIMARY Key (id)
 );
+
+Create Table Governance_Structure
+(
+    id int NOT NULL AUTO_INCREMENT,
+    GovernanceStructure_Name varchar(50),
+    GovernanceStructure_Avaible varchar(50),
+    GovernanceStructure_FullyFunctional varchar(50),
+    GovernanceStructure_ResponsiblePerson varchar(50),
+    GovernanceStructure_Comments varchar(50),
+    GovernanceStructureAction_Who varchar(50),
+    GovernanceStructureAction_When varchar(50),
+    GovernanceStructureAction_Output varchar(50),
+    GovernanceStructure_Date varchar(50),
+     PRIMARY Key (id)
+);

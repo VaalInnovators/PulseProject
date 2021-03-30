@@ -1,12 +1,15 @@
 com\apache\PulseTest\Services\EmployeeService.class
+com\apache\PulseTest\Controllers\StructureLevelController.class
 com\apache\PulseTest\Models\Login.class
 com\apache\PulseTest\Repository\EmployeeRepository.class
 com\apache\PulseTest\Repository\LoginRepository.class
 com\apache\PulseTest\Services\LoginService.class
 com\apache\PulseTest\Exception\RecordNotFoundException.class
 com\apache\PulseTest\Services\LoginService$UserMapper.class
+com\apache\PulseTest\Models\GovernanceStructure.class
 com\apache\PulseTest\Models\Employee.class
 com\apache\PulseTest\Controllers\LoginController.class
+com\apache\PulseTest\Repository\GovernanceStructureRepository.class
 com\apache\PulseTest\Models\EmployeeType.class
 com\apache\PulseTest\Controllers\EmployeeController.class
 com\apache\PulseTest\PulseTestApplication.class
