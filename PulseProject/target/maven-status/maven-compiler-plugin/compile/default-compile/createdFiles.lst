@@ -1,7 +1,10 @@
 com\apache\PulseTest\Services\EmployeeService.class
+com\apache\PulseTest\Controllers\OperationalLevelController.class
 com\apache\PulseTest\Controllers\StructureLevelController.class
+com\apache\PulseTest\Models\FinancialOperation.class
 com\apache\PulseTest\Models\Login.class
 com\apache\PulseTest\Repository\EmployeeRepository.class
+com\apache\PulseTest\Repository\FinanceOperationalRepository.class
 com\apache\PulseTest\Repository\LoginRepository.class
 com\apache\PulseTest\Services\LoginService.class
 com\apache\PulseTest\Exception\RecordNotFoundException.class

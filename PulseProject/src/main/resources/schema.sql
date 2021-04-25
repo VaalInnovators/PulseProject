@@ -32,3 +32,15 @@ Create Table Governance_Structure
     GovernanceStructure_Date varchar(50),
      PRIMARY Key (id)
 );
+
+CREATE TABLE FINANCIAL_OPERATION (
+  id INT AUTO_INCREMENT  PRIMARY KEY,
+  financial_operation_description VARCHAR(250) NOT NULL,
+  financial_operation_financed VARCHAR(250) NOT NULL,
+  financial_operation_responsible_official VARCHAR(250) NOT NULL,
+  financial_operation_comments VARCHAR(250) NOT NULL,
+  financial_operation_action_who VARCHAR(250) NOT NULL,
+  financial_operation_action_when VARCHAR(250) NOT NULL,
+  financial_operation_action_output VARCHAR(250) NOT NULL,
+  financial_operation_date VARCHAR(250) NOT NULL
+);
